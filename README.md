@@ -4,7 +4,7 @@ A **minimalistic HTTP server** container that responds to any request — any me
 
 ## Features
 
-- Ultra-small Alpine-based Docker image
+- Ultra-small Alpine-based Docker image (~10 MB)
 - Instant start-up
 - Handles all HTTP methods (`GET`, `POST`, etc.)
 - One-line output: `HTTP/1.1 200 OK`
