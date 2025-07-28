@@ -23,11 +23,24 @@ Running this container with auto-start on boot (e.g., via Docker's restart polic
 
 ## Run
 
+### Linux
+
 ```shell
 docker run -d \
   --name doganm95-micro-server \
-  -p 80:80 \
+  -p 1111:80 \
   --pull always \
   --restart always \
+  ghcr.io/doganm95/micro-server:latest
+```
+
+### Windows
+
+```powershell
+docker run -d `
+  --name doganm95-micro-server `
+  -p 1111:80 `
+  --pull always `
+  --restart always `
   ghcr.io/doganm95/micro-server:latest
 ```
